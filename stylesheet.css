@@ -65,6 +65,7 @@ h2 {
     transform: translate(-50%, -50%);
     width: 80%;
     height: 90vh;
+    border-radius: 10px;
     background-color: lightgray;
     display: none;
     z-index: 2;
@@ -81,6 +82,7 @@ h2 {
     transform: translate(-50%, -50%);
     width: 80%;
     height: 90vh;
+    border-radius: 10px;
     background-color: lightgray;
     display: none;
     z-index: 2;
@@ -90,6 +92,24 @@ h2 {
     overflow-y: scroll;
 }
 
+/*モーダル内Closeボタン*/
+.close {
+    display: inline-block;
+    padding: 7px 28px;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #333;
+    cursor: pointer;
+}
+
+/*モーダル内スクロールバー*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 5px;
+}
 
 /*モーダル起動時の影*/
 .overlay {

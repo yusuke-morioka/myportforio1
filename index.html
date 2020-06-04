@@ -1,245 +1,104 @@
+
 <!DOCTYPE html>
+
 <html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+
 
 <head>
     <meta charset="utf-8" />
-    <title>yusukemorioka MySite</title>
-</head >
+    <title>yusuke morioka my site</title>
+    <link rel="stylesheet" href="https://www.yusuke-morioka.github.io/myportforio1/StyleSheet1.css" />
+    <script type = "text/javascript" src="https://www.yusuke-morioka.github.io/myportforio1/Script1.js"></script>
+</head>
+
 
 <body>
-    <h1>yusukemorioka MySite</h1>
-    <br />
+    <h1>Yusuke Morioka my Portforio</h1>
     <div id="menu">
-        <div id="p"> <h2 id="pro">Profile</h2> </div>
+        <div id="p"><h2 id="pro">Profile</h2></div>
         <br />
-        <div id="m"> <h2 id="mak">Skill</h2> </div>
+        <div id="m"><h2 id="mak">Skill</h2></div>
         <br />
-        <div id="o"> <h2 id=" oth">Other</h2> </div>
+        <div id="o"><h2 id=" oth">Other</h2></div>
+        <br />
         <br />
     </div>
-
-    <style type="text/css">
-        body {
-            margin: 0px;
-        }
-        /*タイトルの配置(yusuke morioka mysite)*/
-        h1 {
-            font-size: 4em;
-            font-family: 'Microsoft Sans Serif';
-            margin: 0px;
-            padding: 45px;
-            padding-left: 30px;
-            line-height: 1;
-            letter-spacing: 3px;
-        }
-        /*4つのメニューの配置(Profile,Make,Sns,Other)*/
-        h2 {
-            font-size: 3.5em;
-            font-family: 'Microsoft Sans Serif';
-            margin: 0;
-            padding: 10px;
-            padding-left: 30px;
-            text-decoration: none;
-            letter-spacing: 3px;
-            cursor: pointer;
-        }
-        /*snsアイコンサイズと位置*/
-        a {
-            margin: 20px;
-            padding: 0;
-        }
-        /*4つのメニューのマウスホバー処理*/
-        h2 {
-            position: relative;
-            display: inline-block;
-            text-decoration: none;
-        }
-            h2::after {
-                position: absolute;
-                bottom: 14px;
-                left: 0;
-                content: '';
-                width: 200%;
-                height: 1px;
-                background: #333;
-                transform: scale(0, 1);
-                transform-origin: left top;
-                transition: transform .3s;
-            }
-            h2:hover::after {
-                transform: scale(1, 1);
-            }
-    </style>
 
     <!--proモーダル内部-->
     <div class="modal1">
-        <i id="clear_bt" class="material-icons clear_bt"> ✖</i>
+        <i id="clear_bt" class="material-icons clear_bt">✖</i>
         <br />
-        <h3> ----- Profile -----</h3>
+        <h3>----- Profile -----</h3>
         <br />
-        <br /> はじめまして！プロフィールを見てくださり
-        <br /> ありがとうございます。yusukeと申します。
+        <br />はじめまして！プロフィールを見てくださり
+        <br />ありがとうございます。
         <br />
-        <br /> 趣味はスケートボード、ギター、ベース、音楽、映画
-        <br /> 憧れの人は、red hot chili peppers の flea。
-        <br /> guns n roses の SLASH
-        <br /> プロスケーター david gonzales, sewa kroetkov
         <br />
-        <br /> 以前の職場で、Excelの関数を使い
-        <br /> 日々の業務を効率化させるよう依頼されることになる。
-        <br /> ちゃんと動いた時、とても嬉しく達成感があった。
-        <br /> この時あたりから効率化・自動化をまず考える癖がついたと思う。
-        <br /> 適正はあると感じ、プログラミングの学習を始める。
-        <br /> 世界には様々な言語があるという事を全く知らず、
-        <br /> とりあえず買った書籍「高校生から始めるプログラミング」
-        <br /> ではhtml、css、javascriptをそれと知らずに学習。
-        <br /> プログラミングってそういう事が出来るのか！と感じた自分は
-        <br /> まず自分の自己紹介ページを作ることを決意。
-        <br /> 見た目はある程度完成し、現在はSkill欄に
-        <br /> 書くことを更に増やすため、学習に励んでいます。
-        <br /> このページは、まだこれからも更新し続けます。
+        <br />趣味はスケートボード、ギター、ベース、音楽、映画
+        <br />憧れの人は、red hot chili peppers の flea。
+        <br />guns n roses の SLASH
+        <br />プロスケーター david gonzales  ,  sewa kroetkov
         <br />
+        <br />以前の職場で、Excelの関数を使い
+        <br />日々の業務を効率化させるよう依頼されることになる。
+        <br />ちゃんと動いた時、とても嬉しく達成感があった。
+        <br />この時あたりから効率化・自動化をまず考える癖がついたと思う。
+        <br />適正はあると感じ、プログラミングの学習を始める。
+        <br />世界には様々な言語があるという事を全く知らず、
+        <br />とりあえず買った書籍「高校生から始めるプログラミング」
+        <br />ではhtml、css、javascriptをそれと知らずに学習。
+        <br />プログラミングってそういう事が出来るのか！と感じた自分は
+        <br />まず自分の自己紹介ページを作ることを決意。
+        <br />見た目はある程度完成し、現在はSkill欄に
+        <br />書くことを更に増やすため、学習に励んでいます。
+        <br />このページは、まだこれからも更新し続けます。
         <br />
         <br />
         <div class="close">Close</div>
-        <br />
-        <br />
-        <br />
-        <br />
+        <br /><br /><br /><br />
     </div>
-    <br /> <br /> <br /> <br />
+
     <!--makeモーダル内部-->
     <div class="modal2">
-        <i id ="clear_bt" class="material-icons clear_bt">✖</i id>
+        <i id="clear_bt" class="material-icons clear_bt">✖</i>
         <br />
-        <h3> ----- Skill -----</h3>
+        <h3>----- Skill -----</h3>
         <br />
         ～～Excel VBA～～
         <br />
         現在の業務で行っていた作業をVBAを用い自動化。
+        <br />
+        下記の条件にてコードを作成。GitHubでコードのみ公開中。
         <br />
         <br />
         条件１．本日の計画数が０またはNullなら、塗りつぶしなし
         <br />
         条件２．本日の計画数が総合計以なら、青
         <br />
-        条件３．条件１かつ、倉庫A + 倉庫Bのセル値が本日の総合計以上なら、緑
+        条件３．条件１かつ、倉庫A+倉庫Bのセル値が本日の総合計以上なら、緑
         <br />
         条件４．本日の計画数が総合計以上かつ、本日の計画数-総合計が０以上なら、黄色
         <br />
         条件５．条件１～５全て満たなければ、赤
-        <br />
-        <br />
-        <div class="close"> Close</div>
-        <br />
+        <br /><br />
+        <div class="close">Close</div>
     </div>
-    <!--モーダルopen時まわり暗くする-->
-    <div class="overlay"> </div>
-    <style type="text/css">
-        /*モーダルウィンドウ*/
-        .modal1 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%;
-            height: 90vh;
-            border-radius: 10px;
-            background-color: lightgray;
-            display: none;
-            z-index: 2;
-            text-align: center;
-            font-size: 100%;
-            font-family: 'Microsoft Sans Serif';
-            overflow-y: scroll;
-        }
-        .modal2 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%;
-            height: 90vh;
-            border-radius: 10px;
-            background-color: lightgray;
-            display: none;
-            z-index: 2;
-            text-align: center;
-            font-size: 100%;
-            font-family: 'Microsoft Sans Serif';
-            overflow-y: scroll;
-        }
-        /*モーダル内Closeボタン*/
-        .close {
-            display: inline-block;
-            padding: 7px 28px;
-            border-radius: 3px;
-            color: #ffffff;
-            background: #333;
-            cursor: pointer;
-        }
-        /*右上バツボタン*/
-.clear_bt {
-    position: fixed;
-    top: 50px;
-    right: 80px;
-    font-size: 25px;
-    color: gray;
-    cursor: pointer;
-}
-        /*モーダル内スクロールバー*/
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #808080;
-            border-radius: 5px;
-        }
-        /*モーダル起動時の影*/
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            z-index: 1;
-            display: none;
-        }
-    </style>
-    <script>
-    jQuery(document).ready(function ($) {
-    //クリックでウィンドウを開く
-    $('#pro').click(function () {
-    $('.modal1').fadeIn();
-    $('.overlay').fadeIn();
-    });
-    $('#mak').click(function () {
-    $('.modal2').fadeIn();
-    $('.overlay').fadeIn();
-    });
-    //クリックでウィンドウを閉じる
-    $('.close, .overlay, .clear_bt').click(function () {
-    $('.modal1').fadeOut();
-    $('.modal2').fadeOut();
-    $('.overlay').fadeOut();
-    });
-    //escキーでウィンドウを閉じる
-    $(document).keydown(function (e) {
-    if (e.keyCode === 27) {
-    $('.modal1').fadeOut();
-    $('.modal2').fadeOut();
-    $('.overlay').fadeOut();
-    }
-    });
-    });
-    </script>
 
-    
+
+    <!--モーダルopen時まわり暗くする-->
+    <div class="overlay"></div>
+
+
     <!--snsアイコン画像とリンク-->
-    <a href="https://github.com/yusuke-morioka/myportforio1" target="blank"><img src="github.png" alt="Github" width="50" height="48"></a>
-    <a href="https://twitter.com/MockRoll" target="blank"><img src="twitter.png" alt="Twitter" width="50" height="40"></a>
-    <a href="https://www.instagram.com/yusukemorioka/?hl=ja" target="blank"><img src="instagram.png" alt="Instagram" width="44" height="44"></a>
-    <a href="https://soundcloud.com/yusuke-morioka-1" target="blank"><img src="soundcloud.png" alt="Soundcloud" width="80" height="36"></a>
+    <a href="https://github.com/yusuke-morioka/myportforio1" target="_blank"><img src="github.png" 
+      alt="Github" width="50" height="48"></a>
+
+    <a href="https://twitter.com/MockRoll" target="_blank"><img src="twitter.png" alt="Twitter" width="50" height="40"></a>
+
+    <a href="https://www.instagram.com/yusukemorioka/?hl=ja" target="_blank"><img src="instagram.png"alt="Instagram" width="44" height="44"></a>
+
+    <a href="https://soundcloud.com/yusuke-morioka-1" target="_blank"><img src="soundcloud.png" alt="Soundcloud" width="80" height="36"></a>
+
 </body>
-        </html>
+
+</html>
